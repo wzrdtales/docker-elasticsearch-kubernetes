@@ -1,6 +1,6 @@
-FROM quay.io/pires/docker-elasticsearch:5.6.3
+FROM wzrdtales/docker-elasticsearch:5.6.3
 
-MAINTAINER pjpires@gmail.com
+MAINTAINER magic@wizardtales.com
 
 # Override config, otherwise plug-in install will fail
 ADD config /elasticsearch/config
